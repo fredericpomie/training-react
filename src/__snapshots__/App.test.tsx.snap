@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders brand list: First loading 1`] = `
+<DocumentFragment>
+  <div
+    class="App container"
+  >
+    <div
+      class="form-group"
+    >
+      <label>
+        Search
+      </label>
+      <input
+        class="form-control"
+        data-testid="search-input"
+        type="search"
+        value=""
+      />
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <img
+          alt="Ferrari"
+          src="http://img-v2-dev.allopneus.com/brand/label/1.jpg"
+        />
+      </div>
+      <div
+        class="col"
+      >
+        Ferrari
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <img
+          alt="Maserati"
+          src="http://img-v2-dev.allopneus.com/brand/label/2.gif"
+        />
+      </div>
+      <div
+        class="col"
+      >
+        Maserati
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <img
+          alt="Admiral"
+          src="http://img-v2-dev.allopneus.com/brand/label/3.jpg"
+        />
+      </div>
+      <div
+        class="col"
+      >
+        Admiral
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <img
+          alt="AEZ"
+          src="http://img-v2-dev.allopneus.com/brand/label/4.jpg"
+        />
+      </div>
+      <div
+        class="col"
+      >
+        AEZ
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <img
+          alt="Alfa Romeo"
+          src="http://img-v2-dev.allopneus.com/brand/label/5.jpg"
+        />
+      </div>
+      <div
+        class="col"
+      >
+        Alfa Romeo
+      </div>
+    </div>
+    <button
+      class="btn btn-dark"
+    >
+      NEXT
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders brand list: after next 1`] = `
+<DocumentFragment>
+  <div
+    class="App container"
+  >
+    <div
+      class="form-group"
+    >
+      <label>
+        Search
+      </label>
+      <input
+        class="form-control"
+        data-testid="search-input"
+        type="search"
+        value="mase"
+      />
+    </div>
+    <button
+      class="btn btn-dark"
+    >
+      PREVIOUS
+    </button>
+    <button
+      class="btn btn-dark"
+    >
+      NEXT
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders brand list: after search 1`] = `
+<DocumentFragment>
+  <div
+    class="App container"
+  >
+    <div
+      class="form-group"
+    >
+      <label>
+        Search
+      </label>
+      <input
+        class="form-control"
+        data-testid="search-input"
+        type="search"
+        value="mase"
+      />
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <img
+          alt="Maserati"
+          src="http://img-v2-dev.allopneus.com/brand/label/2.gif"
+        />
+      </div>
+      <div
+        class="col"
+      >
+        Maserati
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <img
+          alt="Rims Maserati"
+          src="http://img-v2-dev.allopneus.com/brand/label/400.jpg"
+        />
+      </div>
+      <div
+        class="col"
+      >
+        Rims Maserati
+      </div>
+    </div>
+    <button
+      class="btn btn-dark"
+    >
+      NEXT
+    </button>
+  </div>
+</DocumentFragment>
+`;

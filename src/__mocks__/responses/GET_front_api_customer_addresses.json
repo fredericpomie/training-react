@@ -1,0 +1,82 @@
+{
+  "civility": "M",
+  "lastName": "Wayne",
+  "firstName": "Bruce",
+  "mainPhoneNumber": "0607080910",
+  "alternatePhoneNumber": "0405060708",
+  "billingAddress": {
+    "id": "42",
+    "company": "",
+    "streetAddress": "123 Chemin de la Bat-Cave",
+    "extendedAddress": "Bat Cave #1",
+    "zipCode": "13100",
+    "city": "Aix ma Ville",
+    "country": {
+      "label": "France"
+    },
+    "isProfessionalAddress": false
+  },
+  "deliveryAddresses": {
+    "edges": [
+      {
+        "cursor": "foo=",
+        "node": {
+          "id": "1001",
+          "label": "Bat Cave #1",
+          "civility": "M",
+          "lastName": "Fox",
+          "firstName": "Lucius",
+          "streetAddress": "123 Chemin de la Bat-Cave",
+          "extendedAddress": null,
+          "company": "Wayne Enterprises",
+          "zipCode": "13100",
+          "phone": "0607080910",
+          "city": "AIX EN PROVENCE",
+          "country": {
+            "label": "France"
+          }
+        }
+      },
+      {
+        "cursor": "bar=",
+        "node": {
+          "id": "1002",
+          "label": "Bat Cave #2",
+          "civility": "M",
+          "lastName": "Pennyworth",
+          "firstName": "Alfred",
+          "streetAddress": "123 Chemin de la Bat-Cave",
+          "extendedAddress": null,
+          "company": "Wayne Enterprises",
+          "zipCode": "13799",
+          "city": "AIX EN PROVENCE CEDEX 3, CS 60346",
+          "country": {
+            "label": "France"
+          }
+        }
+      },
+      {
+        "cursor": "baz=",
+        "node": {
+          "id": "1003",
+          "label": "Rachel Room",
+          "civility": "MME",
+          "lastName": "Dawes",
+          "firstName": "Rachel",
+          "streetAddress": "123 Chemin de la Bat-Cave",
+          "extendedAddress": null,
+          "company": "Wayne Enterprises",
+          "zipCode": "13799",
+          "city": "AIX EN PROVENCE CEDEX 3, CS 60346",
+          "country": {
+            "label": "France"
+          }
+        }
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false
+    },
+    "totalCount": 1
+  }
+}

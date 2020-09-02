@@ -1,0 +1,39 @@
+{
+  "@context": "/contexts/Brand",
+  "@id": "/brands",
+  "@type": "hydra:Collection",
+  "hydra:member": [
+    {
+      "@id": "/brands/2",
+      "@type": "Brand",
+      "id": 2,
+      "name": "Maserati",
+      "logoFilename": "2.gif"
+    },
+    {
+      "@id": "/brands/400",
+      "@type": "Brand",
+      "id": 400,
+      "name": "Rims Maserati",
+      "logoFilename": "400.jpg"
+    }
+  ],
+  "hydra:totalItems": 2,
+  "hydra:view": {
+    "@id": "/brands?limit=5\u0026name=mase",
+    "@type": "hydra:PartialCollectionView"
+  },
+  "hydra:search": {
+    "@type": "hydra:IriTemplate",
+    "hydra:template": "/brands{?name}",
+    "hydra:variableRepresentation": "BasicRepresentation",
+    "hydra:mapping": [
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "name",
+        "property": "name",
+        "required": false
+      }
+    ]
+  }
+}

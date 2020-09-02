@@ -1,0 +1,24 @@
+{
+  "totalCount": 8,
+  "items": [
+    {
+      "id": "16468492",
+      "orderState": "sent",
+      "totalAmountIncludingTaxes": "177.00",
+      "validationDate": "2016-01-06T09:19:37+01:00"
+    },
+    {
+      "id": "41179836",
+      "orderState": "sent",
+      "totalAmountIncludingTaxes": "181.70",
+      "validationDate": "2017-10-18T21:14:33+02:00"
+    },
+    {
+      "id": "41622724",
+      "orderState": "sent",
+      "totalAmountIncludingTaxes": "272.55",
+      "validationDate": "2017-11-01T13:51:12+01:00"
+    }
+  ],
+  "cursor": "YXJyYXljb25uZWN0aW9uOjc="
+}

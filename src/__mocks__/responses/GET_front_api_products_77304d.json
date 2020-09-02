@@ -1,0 +1,33 @@
+{
+  "totalCount": 1,
+  "edges": [
+    {
+      "node": {
+        "id": "0003527443",
+        "model": "ENERGY SAVER",
+        "carTiresCategory": [],
+        "threeQuarterView": {
+          "templateUrl": "https://img-v2-dev.allopneus.com/produit/0003527443/threeQuarterView/{transformation}/{dpi}/718ff3eaee8848db8714ddb7350d0fdd24c79a77_pim_tire_3zXYx4",
+          "downloadUrl": "https://allopneus-staging.cloud.akeneo.com/api/rest/v1/media-files/7/1/8/f/718ff3eaee8848db8714ddb7350d0fdd24c79a77_pim_tire_3zXYx4/download"
+        },
+        "frontView": { "templateUrl": null },
+        "mainCarTiresSize": "205/60R15 91 V",
+        "secondaryCarTiresSize": null,
+        "mainMotorbikeSize": null,
+        "secondaryMotorbikeSize": null,
+        "mainAgriSize": null,
+        "secondaryAgriSize": null,
+        "mainHeightTruckSize": null,
+        "mainQuadSize": null,
+        "quadSecondarySize": null,
+        "additionalViewOne": { "templateUrl": null },
+        "additionalViewTwo": { "templateUrl": null },
+        "additionalViewThree": { "templateUrl": null },
+        "additionalViewFour": { "templateUrl": null },
+        "additionalViewFive": { "templateUrl": null },
+        "productType": { "code": "pneu", "value": "Pneu" },
+        "brand": { "code": "michelin", "value": "Michelin" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "isAxiosError": true,
+  "response": {
+    "data": {
+      "redirect": "https://secure.allopneus.com/some/path"
+    }
+  }
+}

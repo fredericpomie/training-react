@@ -1,0 +1,20 @@
+{
+  "customer": {
+    "civility": "M",
+    "lastName": "RAMBO",
+    "firstName": "John",
+    "mainPhoneNumber": "0607080910",
+    "alternatePhoneNumber": "",
+    "billingAddress": {
+      "company": "US Army",
+      "streetAddress": "15 CHEMIN DU COLONEL",
+      "extendedAddress": null,
+      "zipCode": "13100",
+      "city": "AIX-EN-PROVENCE",
+      "country": {
+        "id": "1"
+      },
+      "isProfessionalAddress": true
+    }
+  }
+}

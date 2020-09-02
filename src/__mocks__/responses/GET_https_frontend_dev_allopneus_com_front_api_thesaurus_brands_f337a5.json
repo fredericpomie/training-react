@@ -1,0 +1,24 @@
+{
+  "@context": "/contexts/Brand",
+  "@id": "/brands",
+  "@type": "hydra:Collection",
+  "hydra:member": [],
+  "hydra:totalItems": 2,
+  "hydra:view": {
+    "@id": "/brands?limit=5\u0026name=mase",
+    "@type": "hydra:PartialCollectionView"
+  },
+  "hydra:search": {
+    "@type": "hydra:IriTemplate",
+    "hydra:template": "/brands{?name}",
+    "hydra:variableRepresentation": "BasicRepresentation",
+    "hydra:mapping": [
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "name",
+        "property": "name",
+        "required": false
+      }
+    ]
+  }
+}

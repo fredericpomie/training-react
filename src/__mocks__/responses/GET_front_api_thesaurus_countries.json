@@ -1,0 +1,79 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "label": "France",
+      "code": "FR"
+    },
+    {
+      "id": 2,
+      "label": "Italie",
+      "code": "IT"
+    },
+    {
+      "id": 3,
+      "label": "Allemagne",
+      "code": "DE"
+    },
+    {
+      "id": 4,
+      "label": "Autriche",
+      "code": "AT"
+    },
+    {
+      "id": 5,
+      "label": "Belgique",
+      "code": "BE"
+    },
+    {
+      "id": 6,
+      "label": "Danemark",
+      "code": "DK"
+    },
+    {
+      "id": 7,
+      "label": "Espagne",
+      "code": "ES"
+    },
+    {
+      "id": 8,
+      "label": "Luxembourg",
+      "code": "LU"
+    },
+    {
+      "id": 9,
+      "label": "Pays-Bas",
+      "code": "NL"
+    },
+    {
+      "id": 10,
+      "label": "Pologne",
+      "code": "PL"
+    },
+    {
+      "id": 11,
+      "label": "Portugal",
+      "code": "PT"
+    },
+    {
+      "id": 12,
+      "label": "Royaume-Uni",
+      "code": "GB"
+    },
+    {
+      "id": 13,
+      "label": "Suisse",
+      "code": "CH"
+    },
+    {
+      "id": 14,
+      "label": "France DOM-TOM",
+      "code": "FR"
+    },
+    {
+      "id": 15,
+      "label": "Autre...",
+      "code": "__"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "categories": [
+    {
+      "id": 2,
+      "name": "entreprise",
+      "professional": true,
+      "activities": [
+        {
+          "id": 23,
+          "name": "Administration/Collectivité locale"
+        },
+        {
+          "id": 14,
+          "name": "Ambulance"
+        },
+        {
+          "id": 10,
+          "name": "Artisanat"
+        },
+        {
+          "id": 20,
+          "name": "Association/Organisme"
+        },
+        {
+          "id": 2,
+          "name": "Autre - Entreprise"
+        },
+        {
+          "id": 24,
+          "name": "Banque et assurance"
+        },
+        {
+          "id": 13,
+          "name": "Café, Hôtel, Restaurant"
+        },
+        {
+          "id": 6,
+          "name": "Commerce de détail"
+        },
+        {
+          "id": 26,
+          "name": "Commerce de gros"
+        },
+        {
+          "id": 16,
+          "name": "Construction et BTP"
+        },
+        {
+          "id": 7,
+          "name": "Ecole de conduite"
+        },
+        {
+          "id": 21,
+          "name": "Enseignement"
+        },
+        {
+          "id": 15,
+          "name": "Industrie et manufacture"
+        },
+        {
+          "id": 17,
+          "name": "Laboratoire, clinique et pharmacie"
+        },
+        {
+          "id": 25,
+          "name": "Médias"
+        },
+        {
+          "id": 18,
+          "name": "Profession libérale"
+        },
+        {
+          "id": 19,
+          "name": "Professionnel espaces verts "
+        },
+        {
+          "id": 27,
+          "name": "Santé et hopitaux"
+        },
+        {
+          "id": 8,
+          "name": "Service"
+        },
+        {
+          "id": 12,
+          "name": "Société de location"
+        },
+        {
+          "id": 3,
+          "name": "Spécialiste Agricole et PL"
+        },
+        {
+          "id": 9,
+          "name": "Taxi"
+        },
+        {
+          "id": 4,
+          "name": "Tourisme, sports et loisirs"
+        },
+        {
+          "id": 5,
+          "name": "Transport, logistique et autocariste"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "revendeur",
+      "professional": true,
+      "activities": [
+        {
+          "id": 11,
+          "name": "Agent de Marque"
+        },
+        {
+          "id": 35,
+          "name": "Association"
+        },
+        {
+          "id": 33,
+          "name": "Autre"
+        },
+        {
+          "id": 37,
+          "name": "autre - revendeur"
+        },
+        {
+          "id": 31,
+          "name": "Carrosserie et peinture automobile"
+        },
+        {
+          "id": 32,
+          "name": "Centre auto/Réseau spécialisé"
+        },
+        {
+          "id": 1,
+          "name": "Commerce de détail"
+        },
+        {
+          "id": 28,
+          "name": "Constructeur"
+        },
+        {
+          "id": 30,
+          "name": "Entretien et réparation"
+        },
+        {
+          "id": 38,
+          "name": "Fabricant"
+        },
+        {
+          "id": 34,
+          "name": "Grossiste/Négociant"
+        },
+        {
+          "id": 36,
+          "name": "Remorquage/Dépannage"
+        },
+        {
+          "id": 29,
+          "name": "Revendeur Automobiles"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "employé",
+      "professional": false,
+      "activities": [
+        {
+          "id": 39,
+          "name": "Employe"
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "Particulier",
+      "professional": false,
+      "activities": [
+        {
+          "id": 0,
+          "name": "Particulier"
+        }
+      ]
+    }
+  ]
+}

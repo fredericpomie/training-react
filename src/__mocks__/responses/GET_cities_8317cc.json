@@ -1,0 +1,56 @@
+[
+  {
+    "postal_code": "13100",
+    "city": "AIX EN PROVENCE",
+    "country_code": "FRA",
+    "slug": "",
+    "latitude": "43.5360708378",
+    "longitude": "5.39857444582",
+    "metadata": "{\"localityId\":\"13001\"}"
+  },
+  {
+    "postal_code": "13100",
+    "city": "BEAURECUEIL",
+    "country_code": "FRA",
+    "slug": "",
+    "latitude": "43.5220542383",
+    "longitude": "5.545935902",
+    "metadata": "{\"localityId\":\"13012\"}"
+  },
+  {
+    "postal_code": "13100",
+    "city": "AIX EN PROVENCE",
+    "country_code": "FRA",
+    "slug": "LA DURANNE",
+    "latitude": "43.5360708378",
+    "longitude": "5.39857444582",
+    "metadata": "{\"localityId\":\"13001\"}"
+  },
+  {
+    "postal_code": "13100",
+    "city": "ST MARC JAUMEGARDE",
+    "country_code": "FRA",
+    "slug": "",
+    "latitude": "43.5561849254",
+    "longitude": "5.52206993794",
+    "metadata": "{\"localityId\":\"13095\"}"
+  },
+  {
+    "postal_code": "13100",
+    "city": "ST ANTONIN SUR BAYON",
+    "country_code": "FRA",
+    "slug": "",
+    "latitude": "43.517185261",
+    "longitude": "5.59403460953",
+    "metadata": "{\"localityId\":\"13090\"}"
+  },
+  {
+    "postal_code": "13100",
+    "city": "LE THOLONET",
+    "country_code": "FRA",
+    "slug": "",
+    "latitude": "43.5196914136",
+    "longitude": "5.50819253944",
+    "metadata": "{\"localityId\":\"13109\"}"
+  }
+]

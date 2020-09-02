@@ -1,0 +1,63 @@
+{
+  "@context": "/contexts/Brand",
+  "@id": "/brands",
+  "@type": "hydra:Collection",
+  "hydra:member": [
+    {
+      "@id": "/brands/1",
+      "@type": "Brand",
+      "id": 1,
+      "name": "Ferrari",
+      "logoFilename": "1.jpg"
+    },
+    {
+      "@id": "/brands/2",
+      "@type": "Brand",
+      "id": 2,
+      "name": "Maserati",
+      "logoFilename": "2.gif"
+    },
+    {
+      "@id": "/brands/3",
+      "@type": "Brand",
+      "id": 3,
+      "name": "Admiral",
+      "logoFilename": "3.jpg"
+    },
+    {
+      "@id": "/brands/4",
+      "@type": "Brand",
+      "id": 4,
+      "name": "AEZ",
+      "logoFilename": "4.jpg"
+    },
+    {
+      "@id": "/brands/5",
+      "@type": "Brand",
+      "id": 5,
+      "name": "Alfa Romeo",
+      "logoFilename": "5.jpg"
+    }
+  ],
+  "hydra:totalItems": 488,
+  "hydra:view": {
+    "@id": "/brands?limit=5\u0026name=\u0026page=1",
+    "@type": "hydra:PartialCollectionView",
+    "hydra:first": "/brands?limit=5\u0026name=\u0026page=1",
+    "hydra:last": "/brands?limit=5\u0026name=\u0026page=98",
+    "hydra:next": "/brands?limit=5\u0026name=\u0026page=2"
+  },
+  "hydra:search": {
+    "@type": "hydra:IriTemplate",
+    "hydra:template": "/brands{?name}",
+    "hydra:variableRepresentation": "BasicRepresentation",
+    "hydra:mapping": [
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "name",
+        "property": "name",
+        "required": false
+      }
+    ]
+  }
+}

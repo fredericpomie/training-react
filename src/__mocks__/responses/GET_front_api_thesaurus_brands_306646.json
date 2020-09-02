@@ -1,0 +1,38 @@
+{
+  "@context": "/contexts/Brand",
+  "@id": "/brands",
+  "@type": "hydra:Collection",
+  "hydra:member": [
+    {
+      "@id": "/brands/106",
+      "@type": "Brand",
+      "id": 106,
+      "name": "Michelin",
+      "logoFilename": "106.jpg"
+    }
+  ],
+  "hydra:totalItems": 1,
+  "hydra:view": {
+    "@id": "/brands?name%5B%5D=Michelin",
+    "@type": "hydra:PartialCollectionView"
+  },
+  "hydra:search": {
+    "@type": "hydra:IriTemplate",
+    "hydra:template": "/brands{?name,name[]}",
+    "hydra:variableRepresentation": "BasicRepresentation",
+    "hydra:mapping": [
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "name",
+        "property": "name",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "name[]",
+        "property": "name",
+        "required": false
+      }
+    ]
+  }
+}
